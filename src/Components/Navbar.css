@@ -1,0 +1,55 @@
+@import url('https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 25px 20px;
+    color: black;
+    position: relative;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    /* border: 2px solid #ccc; */
+    z-index: 100;
+
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight:600;
+    position: absolute;
+    left: 4.67em;
+}
+
+.b1{
+    position: absolute;
+    left: 15%;
+}
+
+.b2{
+    position: absolute;
+   left: 75%;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+
+}
+
+.navbar-links a:hover {
+    color: #00bcd4;
+}
